@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\medical\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|C:\\Users\\felip\\source\\repos\\medical\\insertTable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|solutionrelative:insertTable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|C:\\Users\\felip\\source\\repos\\medical\\createTables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|solutionrelative:createTables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\dbobjects\\patientvisitmedicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbobjects\\patientvisitmedicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|c:\\users\\felip\\source\\repos\\medical\\domain\\entities\\patientvisitmedicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\patientvisitmedicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\dbobjects\\insurancecompanydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbobjects\\insurancecompanydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\dbobjects\\medicalfacilitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbobjects\\medicalfacilitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\dbobjects\\patientdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dbobjects\\patientdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|c:\\users\\felip\\source\\repos\\medical\\medicalapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|solutionrelative:medicalapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0272BF11-0FB1-4138-B6DC-6EB1A2008BAA}|Services\\Services.csproj|c:\\users\\felip\\source\\repos\\medical\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0272BF11-0FB1-4138-B6DC-6EB1A2008BAA}|Services\\Services.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0272BF11-0FB1-4138-B6DC-6EB1A2008BAA}|Services\\Services.csproj|c:\\users\\felip\\source\\repos\\medical\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0272BF11-0FB1-4138-B6DC-6EB1A2008BAA}|Services\\Services.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|c:\\users\\felip\\source\\repos\\medical\\domain\\mappers\\patientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|solutionrelative:domain\\mappers\\patientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|c:\\users\\felip\\source\\repos\\medical\\medicalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|solutionrelative:medicalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|c:\\users\\felip\\source\\repos\\medical\\domain\\entities\\insurancecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\insurancecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|c:\\users\\felip\\source\\repos\\medical\\domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|c:\\users\\felip\\source\\repos\\medical\\domain\\entities\\medicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7DDA4-056B-4632-A5EE-B56F96E36693}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\medicalfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\medicaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\medicaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|c:\\users\\felip\\source\\repos\\medical\\infraestructure\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCFC8EB-E9BD-4729-8CE8-999B152FCF14}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|c:\\users\\felip\\source\\repos\\medical\\medicalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{155CBC41-60DF-46EE-BB71-B6E83F24EDEE}|MedicalAPI\\MedicalAPI.csproj|solutionrelative:medicalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|C:\\Users\\felip\\source\\repos\\medical\\createTables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|solutionrelative:createTables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|C:\\Users\\felip\\source\\repos\\medical\\insertTable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|NewFolder1{D0829AEA-77F8-465C-BF8B-1817CA2EB931}|solutionrelative:insertTable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "insertTable.sql ",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\insertTable.sql",
+              "RelativeDocumentMoniker": "insertTable.sql",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\insertTable.sql",
+              "RelativeToolTip": "insertTable.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-12T17:51:51.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "createTables.sql ",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\createTables.sql",
+              "RelativeDocumentMoniker": "createTables.sql",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\createTables.sql",
+              "RelativeToolTip": "createTables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-12T17:49:39.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientVisitMedicalFacility.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\PatientVisitMedicalFacility.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DbObjects\\PatientVisitMedicalFacility.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\PatientVisitMedicalFacility.cs",
+              "RelativeToolTip": "Infraestructure\\DbObjects\\PatientVisitMedicalFacility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:26:29.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Services\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Services\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Services\\IPatientService.cs",
+              "RelativeToolTip": "Services\\IPatientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:16:56.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "MedicalAPI\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "MedicalAPI\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:14:35.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PatientMapper.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Mappers\\PatientMapper.cs",
+              "RelativeDocumentMoniker": "Domain\\Mappers\\PatientMapper.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Mappers\\PatientMapper.cs",
+              "RelativeToolTip": "Domain\\Mappers\\PatientMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:07:37.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatientDb.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\PatientDb.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DbObjects\\PatientDb.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\PatientDb.cs",
+              "RelativeToolTip": "Infraestructure\\DbObjects\\PatientDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:50:35.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:47:19.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalFacilityDb.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\MedicalFacilityDb.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DbObjects\\MedicalFacilityDb.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\MedicalFacilityDb.cs",
+              "RelativeToolTip": "Infraestructure\\DbObjects\\MedicalFacilityDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:50:07.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsuranceCompanyDb.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\InsuranceCompanyDb.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DbObjects\\InsuranceCompanyDb.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\DbObjects\\InsuranceCompanyDb.cs",
+              "RelativeToolTip": "Infraestructure\\DbObjects\\InsuranceCompanyDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:50:03.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientVisitMedicalFacility.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\PatientVisitMedicalFacility.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\PatientVisitMedicalFacility.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\PatientVisitMedicalFacility.cs",
+              "RelativeToolTip": "Domain\\Entities\\PatientVisitMedicalFacility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:48:08.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "Domain\\Entities\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:26:27.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicalFacility.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\MedicalFacility.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\MedicalFacility.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\MedicalFacility.cs",
+              "RelativeToolTip": "Domain\\Entities\\MedicalFacility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:29:14.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InsuranceCompany.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\InsuranceCompany.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\InsuranceCompany.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Entities\\InsuranceCompany.cs",
+              "RelativeToolTip": "Domain\\Entities\\InsuranceCompany.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:31:25.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MedicalAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\Program.cs",
+              "RelativeToolTip": "MedicalAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:41:30.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\MedicalDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\MedicalDbContext.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\MedicalDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\MedicalDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:28:01.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\Infraestructure\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\PatientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:44:54.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MedicalAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\medical\\MedicalAPI\\appsettings.Development.json",
+              "RelativeToolTip": "MedicalAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-12T16:19:13.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
