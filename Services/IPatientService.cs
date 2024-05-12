@@ -8,6 +8,6 @@ namespace Services
     {
         IPatientRepository PatientRepository { get; }
 
-        List<Patient> GetPatients();
+        List<Patient> GetAllPatientsVisitCitiesMoreThanTwise();
     }
 }

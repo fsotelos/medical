@@ -1,15 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Dapper.Contrib.Extensions;
+using Domain.Entities;
 
 namespace Domain
 {
+    [Table("Patients")]
     public class PatientDb
     {
-        [Key]
+        [ExplicitKey]
         public Guid Id { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public int Age { get; set; }
-        public int InsuranceCompanyId { get; set; }
+        [Write(false)]
+        public string? VisitedCities { get; set; }
+        [Computed]
+        public InsuranceCompanyDb InsuranceCompany { get; set; }
     }
 
 }

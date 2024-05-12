@@ -1,17 +1,16 @@
-using Domain.Entities;
+﻿using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Services;
 
 namespace MedicalAPI.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class PatientController : ControllerBase
     {
-        
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<PatientController> _logger;
 
-        public PatientController(IPatientService patientService, ILogger<WeatherForecastController> logger)
+        public PatientController(IPatientService patientService, ILogger<PatientController> logger)
         {
             PatientService = patientService;
             _logger = logger;
@@ -19,10 +18,11 @@ namespace MedicalAPI.Controllers
 
         public IPatientService PatientService { get; }
 
-        [HttpGet(Name = "GetAllPatinets")]
-        public IEnumerable<Patient> Get()
+        [HttpGet]
+        [Route("GetAllPatientsVisitCitiesMoreThanTwise")]
+        public IEnumerable<Patient> GetAllPatientsVisitCitiesMoreThanTwise()
         {
-            return PatientService.GetPatients();
+            return PatientService.GetAllPatientsVisitCitiesMoreThanTwise();
         }
     }
 }

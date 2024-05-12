@@ -22,10 +22,17 @@ CREATE TABLE InsuranceCompanies (
 );
 
 
-CREATE TABLE PatientVisitMedicalFacilities (
-    PatientId UUID,
-    MedicalFacilityId UUID,
-    FOREIGN KEY (PatientId) REFERENCES Patients(Id),
-    FOREIGN KEY (MedicalFacilityId) REFERENCES MedicalFacilities(Id),
-    PRIMARY KEY (PatientId, MedicalFacilityId)
-););
+CREATE TABLE PatientvisitMedicalFacilities1
+(
+    patientid uuid NOT NULL,
+    medicalfacilityid uuid NOT NULL,
+    "VisitDate" date,
+    CONSTRAINT patientvisitmedicalfacilities_medicalfacilityid_fkey FOREIGN KEY (medicalfacilityid)
+        REFERENCES public.medicalfacilities (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT patientvisitmedicalfacilities_patientid_fkey FOREIGN KEY (patientid)
+        REFERENCES public.patients (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+);

@@ -1,7 +1,6 @@
-﻿using Domain;
-using Domain.Entities;
-using Infraestructure.Repositories;
+﻿using Domain.Entities;
 using Domain.Mappers;
+using Infraestructure.Repositories;
 namespace Services
 {
     public class PatientService : IPatientService
@@ -13,9 +12,9 @@ namespace Services
 
         public IPatientRepository PatientRepository { get; }
 
-        public List<Patient> GetPatients()
+        public List<Patient> GetAllPatientsVisitCitiesMoreThanTwise()
         {
-            var result = PatientRepository.GetAll();
+            var result = PatientRepository.GetAllPatientsVisitCitiesMoreThanTwise();
             return result.Map();
         }
     }

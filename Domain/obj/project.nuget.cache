@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9YtgIp+7ItpULxtViILpKsXIG+F2FjbN2aldMjCQWnQGhbYdHSUu5Bi/KJfpyPeKLoR79Q9iQlZzc45cL2tTUA==",
+  "dgSpecHash": "gh13+L5XgpMcpKp7RaI92yncSZVTQMtdBWOM2VapztW2pZaLgPXvDDqzJBXjdbUnmj4O92/no7kXzGdxf5YhqQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\felip\\source\\repos\\medical\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\fluentmigrator\\5.2.0\\fluentmigrator.5.2.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\fluentmigrator.abstractions\\5.2.0\\fluentmigrator.abstractions.5.2.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\fluentmigrator.extensions.postgres\\5.2.0\\fluentmigrator.extensions.postgres.5.2.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -23,6 +25,7 @@
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],

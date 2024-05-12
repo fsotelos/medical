@@ -70,26 +70,84 @@ VALUES
     ('84710e54-bd3e-4b3d-a7ee-304ff9bbf874', 'Boston General Hospital', 'Boston');
 
 -- Insert PatientVisitMedicalFacility
-INSERT INTO PatientVisitMedicalFacilities (PatientId, MedicalFacilityId)
-VALUES 
-    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1'), -- John Doe en New York Medical Center
-    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '1fbda6f5-0768-40f2-bc07-1e03fc04c085'), -- Jane Smith en Los Angeles General Hospital
-    ('a11c01d3-8af4-4249-bc63-48ff79128e2e', '4b02ee1b-c01d-4058-b4b8-4468a1c72059'), -- Michael Johnson en Chicago Community Clinic
-    ('545f41d9-d6a1-4153-9873-2a85ec98ef19', 'cfd61be2-b883-4c5b-8695-4d2df8996921'), -- Emily Brown en Houston Regional Hospital
-    ('dc7ff441-df78-4d5a-ba17-b7ccdeac6f4a', 'bb4f7cc3-f34a-4516-8b0e-bb2726e7a2e5'), -- William Taylor en Phoenix Health Center
-    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', '5d9799ae-5da7-4050-89d8-b1df032d09e9'), -- Sarah Williams en Dallas Medical Center
-    ('e177be95-7a1b-472a-8f3d-2eb5df600f19', '69351d14-632b-4f88-a9d7-799db0ab84b0'), -- David Anderson en San Francisco General Hospital
-    ('5751024b-d3f1-4433-8f25-1f5cfb145417', '9e498f96-0752-4718-bf0a-7cf4d2d14654'), -- Linda Martinez en Miami Community Clinic
-    ('d5aa45fc-4975-4481-8af1-5ae0415a8190', '04e3b46c-10c0-4965-89b6-3b29509d48b0'), -- Richard Clark en Seattle Regional Hospital
-    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', '11f3d2b4-2b8e-418f-b4c7-4ab8959a6a38'), -- Mary Hernandez en Boston Health Center
-    ('b71a65e4-e9c3-4e13-934e-fb8e10d64c28', '8a915edb-df63-4d3e-8a5a-b86b9d4e3db7'), -- Daniel Young en Chicago Medical Center
-    ('f28f4863-4504-4d1d-8f2f-564289c79f91', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d'), -- Maria Lee en Los Angeles Community Clinic
-    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '23a6f682-7f36-44ff-8d84-c64543ebd066'), -- Matthew Garcia en Houston General Hospital
-    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964'), -- Karen Lopez en Phoenix Medical Center
-    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', '42f859eb-9d63-4f49-9e9a-47d1185017af'), -- Christopher Perez en New York Community Clinic
-    ('84d3ef5d-1b69-4b65-bcf1-f14d8972b472', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e'), -- Amanda Flores en Dallas General Hospital
-    ('1523e6af-476f-4c31-90e4-f0c681d982bc', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab'), -- Brandon Nguyen en Miami Medical Center
-    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', 'e3b6f84a-6ba6-4954-bde9-5b416c2c3aa7'), -- Jennifer King en Seattle Medical Center
-    ('5b19b18e-31ee-4d0a-a505-af2c7592aa15', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874'), -- Robert Chen en Boston General Hospital
-    ('fc4c688b-9b17-42f1-b7f2-01115f579027', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1'); -- Jessica Liu en New York Medical Center
-    
+INSERT INTO public.patientvisitmedicalfacilities(patientid, medicalfacilityid, ""VisitDate"") VALUES
+    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '04e3b46c-10c0-4965-89b6-3b29509d48b0', '2024-05-12'),
+    ('b71a65e4-e9c3-4e13-934e-fb8e10d64c28', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-12'),
+    ('fc4c688b-9b17-42f1-b7f2-01115f579027', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-12'),
+    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', '4b02ee1b-c01d-4058-b4b8-4468a1c72059', '2024-05-12'),
+    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-12'),
+    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-12'),
+    ('a11c01d3-8af4-4249-bc63-48ff79128e2e', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-12'),
+    ('5751024b-d3f1-4433-8f25-1f5cfb145417', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-11'),
+    ('dc7ff441-df78-4d5a-ba17-b7ccdeac6f4a', 'bb4f7cc3-f34a-4516-8b0e-bb2726e7a2e5', '2024-05-11'),
+    ('e177be95-7a1b-472a-8f3d-2eb5df600f19', '04e3b46c-10c0-4965-89b6-3b29509d48b0', '2024-05-11'),
+    ('d5aa45fc-4975-4481-8af1-5ae0415a8190', 'bb4f7cc3-f34a-4516-8b0e-bb2726e7a2e5', '2024-05-11'),
+    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', '42f859eb-9d63-4f49-9e9a-47d1185017af', '2024-05-11'),
+    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964', '2024-05-11'),
+    ('b71a65e4-e9c3-4e13-934e-fb8e10d64c28', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-11'),
+    ('84d3ef5d-1b69-4b65-bcf1-f14d8972b472', '1fbda6f5-0768-40f2-bc07-1e03fc04c085', '2024-05-11'),
+    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '5d9799ae-5da7-4050-89d8-b1df032d09e9', '2024-05-11'),
+    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '11f3d2b4-2b8e-418f-b4c7-4ab8959a6a38', '2024-05-11'),
+    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', '4b02ee1b-c01d-4058-b4b8-4468a1c72059', '2024-05-11'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', '4b02ee1b-c01d-4058-b4b8-4468a1c72059', '2024-05-10'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '1fbda6f5-0768-40f2-bc07-1e03fc04c085', '2024-05-10'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-10'),
+    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', 'e3b6f84a-6ba6-4954-bde9-5b416c2c3aa7', '2024-05-10'),
+    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', '9e498f96-0752-4718-bf0a-7cf4d2d14654', '2024-05-10'),
+    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', '69351d14-632b-4f88-a9d7-799db0ab84b0', '2024-05-10'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-10'),
+    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964', '2024-05-09'),
+    ('545f41d9-d6a1-4153-9873-2a85ec98ef19', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964', '2024-05-09'),
+    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', 'cfd61be2-b883-4c5b-8695-4d2df8996921', '2024-05-09'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-09'),
+    ('1523e6af-476f-4c31-90e4-f0c681d982bc', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-09'),
+    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', '23a6f682-7f36-44ff-8d84-c64543ebd066', '2024-05-09'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', '1fbda6f5-0768-40f2-bc07-1e03fc04c085', '2024-05-09'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '11f3d2b4-2b8e-418f-b4c7-4ab8959a6a38', '2024-05-09'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964', '2024-05-09'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-09'),
+    ('fc4c688b-9b17-42f1-b7f2-01115f579027', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-09'),
+    ('84d3ef5d-1b69-4b65-bcf1-f14d8972b472', 'cfd61be2-b883-4c5b-8695-4d2df8996921', '2024-05-09'),
+    ('a11c01d3-8af4-4249-bc63-48ff79128e2e', '97b6a9e7-8f2d-4d2d-8b1d-8c6220de9964', '2024-05-08'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-08'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '04e3b46c-10c0-4965-89b6-3b29509d48b0', '2024-05-08'),
+    ('a11c01d3-8af4-4249-bc63-48ff79128e2e', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-08'),
+    ('dc7ff441-df78-4d5a-ba17-b7ccdeac6f4a', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-08'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '04e3b46c-10c0-4965-89b6-3b29509d48b0', '2024-05-08'),
+    ('f1285678-3bb9-4fb6-bdd3-68c11f8c3eb0', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-08'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '4b02ee1b-c01d-4058-b4b8-4468a1c72059', '2024-05-08'),
+    ('1523e6af-476f-4c31-90e4-f0c681d982bc', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-08'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-08'),
+    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', 'ef02a0d4-21d9-4e37-8d6b-2c33238c01d1', '2024-05-08'),
+    ('5b19b18e-31ee-4d0a-a505-af2c7592aa15', '11f3d2b4-2b8e-418f-b4c7-4ab8959a6a38', '2024-05-08'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-08'),
+    ('fc4c688b-9b17-42f1-b7f2-01115f579027', 'e3b6f84a-6ba6-4954-bde9-5b416c2c3aa7', '2024-05-08'),
+    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', '8a915edb-df63-4d3e-8a5a-b86b9d4e3db7', '2024-05-08'),
+    ('e177be95-7a1b-472a-8f3d-2eb5df600f19', 'e3b6f84a-6ba6-4954-bde9-5b416c2c3aa7', '2024-05-08'),
+    ('e177be95-7a1b-472a-8f3d-2eb5df600f19', '42f859eb-9d63-4f49-9e9a-47d1185017af', '2024-05-08'),
+    ('b71a65e4-e9c3-4e13-934e-fb8e10d64c28', '8a915edb-df63-4d3e-8a5a-b86b9d4e3db7', '2024-05-08'),
+    ('091c9b17-1287-4f87-a573-924f0d4dd5f9', '69351d14-632b-4f88-a9d7-799db0ab84b0', '2024-05-07'),
+    ('d5aa45fc-4975-4481-8af1-5ae0415a8190', 'cfd61be2-b883-4c5b-8695-4d2df8996921', '2024-05-07'),
+    ('d5aa45fc-4975-4481-8af1-5ae0415a8190', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-07'),
+    ('e177be95-7a1b-472a-8f3d-2eb5df600f19', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-07'),
+    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-07'),
+    ('81fb0cd5-d792-494f-b319-36fd1cf76a2b', 'cfd61be2-b883-4c5b-8695-4d2df8996921', '2024-05-07'),
+    ('5b19b18e-31ee-4d0a-a505-af2c7592aa15', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-07'),
+    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', 'b5d207dc-6d6b-4be4-920a-1700245a2f1e', '2024-05-07'),
+    ('f28f4863-4504-4d1d-8f2f-564289c79f91', '5d9799ae-5da7-4050-89d8-b1df032d09e9', '2024-05-07'),
+    ('545f41d9-d6a1-4153-9873-2a85ec98ef19', 'bb4f7cc3-f34a-4516-8b0e-bb2726e7a2e5', '2024-05-07'),
+    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-07'),
+    ('3bb10d35-f5cd-4035-90cc-d7abfdde8b95', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-07'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '42f859eb-9d63-4f49-9e9a-47d1185017af', '2024-05-07'),
+    ('2d8a35a6-d8f1-4fd9-aae5-c10f810ea64f', '11f3d2b4-2b8e-418f-b4c7-4ab8959a6a38', '2024-05-07'),
+    ('73dd54a7-9eb9-4b82-b12c-fcf39a760bb7', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-07'),
+    ('5b19b18e-31ee-4d0a-a505-af2c7592aa15', '1fbda6f5-0768-40f2-bc07-1e03fc04c085', '2024-05-07'),
+    ('1523e6af-476f-4c31-90e4-f0c681d982bc', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-07'),
+    ('1523e6af-476f-4c31-90e4-f0c681d982bc', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-06'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '5b36c26f-2c1f-463e-b20f-d0ff9d39b79d', '2024-05-06'),
+    ('fc4c688b-9b17-42f1-b7f2-01115f579027', '4b02ee1b-c01d-4058-b4b8-4468a1c72059', '2024-05-06'),
+    ('84d3ef5d-1b69-4b65-bcf1-f14d8972b472', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-06'),
+    ('1523e6af-476f-4c31-90e4-f0c681d982bc', 'cfd61be2-b883-4c5b-8695-4d2df8996921', '2024-05-06'),
+    ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '5d9799ae-5da7-4050-89d8-b1df032d09e9', '2024-05-06'),
+    ('f28f4863-4504-4d1d-8f2f-564289c79f91', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-06'),
+    ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-06');

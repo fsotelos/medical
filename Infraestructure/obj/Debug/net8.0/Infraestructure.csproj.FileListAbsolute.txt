@@ -10,3 +10,4 @@ C:\Users\felip\source\repos\medical\Infraestructure\obj\Debug\net8.0\Infraestruc
 C:\Users\felip\source\repos\medical\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
 C:\Users\felip\source\repos\medical\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 C:\Users\felip\source\repos\medical\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+C:\Users\felip\source\repos\medical\Infraestructure\obj\Debug\net8.0\Infraestructure.sourcelink.json

@@ -1,5 +1,5 @@
-using Infraestructure;
 using Infraestructure.Repositories;
+using MedicalAPI.Middleware;
 using Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,10 +13,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IPatientService, PatientService>();
 builder.Services.AddTransient<IPatientRepository, PatientRepository>();
-builder.Services.AddSingleton<MedicalDbContext>();
-builder.Services.AddControllers();
+
+
+builder.Services.AddControllers(); 
 
 var app = builder.Build();
+
+var loggerFactory = LoggerFactory.Create(loggingBuilder => loggingBuilder
+    .SetMinimumLevel(LogLevel.Trace));
+
+//// Use the logger factory to create an instance of ILogger
+ILogger logger = loggerFactory.CreateLogger<Program>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -25,10 +32,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.ConfigureExceptionHandler(logger);
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

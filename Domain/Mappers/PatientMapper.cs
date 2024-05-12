@@ -14,9 +14,9 @@ namespace Domain.Mappers
                 {
                     Id = patient.Id,
                     Age = patient.Age,
-                    FirstName = patient.FirstName,
-                    InsuranceCompanyId = patient.InsuranceCompanyId,
-                    LastName = patient.LastName,
+                    FullName = patient.LastName + ", " + patient.FirstName,
+                    Category = patient.Age  < 16 ? "A" : "B",
+                    VisitedCities = patient.VisitedCities  
                 });
             }
             return list;

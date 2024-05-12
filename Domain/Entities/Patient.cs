@@ -3,9 +3,9 @@
     public class Patient
     {
         public Guid Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public string? FullName { get; set; }
         public int Age { get; set; }
-        public int InsuranceCompanyId { get; set; }
+        public string? VisitedCities { get; set; }
+        public string? Category { get; set; }
     }
 }
