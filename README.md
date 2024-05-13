@@ -2,16 +2,25 @@
 
 GitHub: [https://fsotelos.github.io/site/](https://fsotelos.github.io/site/)
 
+Repository: https://github.com/fsotelos/medical/tree/main
+
 ## Medical Web API
 
 This repository hosts the Medical Web API, a component of the delivered solution. It includes Swagger for endpoint testing.
 
-Swagger Endpoint: [http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise](http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise)
 
 To get started, follow these steps:
 
-1. Navigate to the `medical` directory at the root of the repository.
-2. Run the following command:
+1. Download source code and clone repository in your VS2022
+
+	https://github.com/fsotelos/medical.git 
+2. Open a Console With Administrator Permissions 
+
+3. Navigate to the `medical` directory at the root of the repository.
+
+   C:\Users\[name user]\source\repos\medical2
+
+4. Run the following command:
 
    ```bash
    docker-compose up -d
@@ -21,7 +30,19 @@ To get started, follow these steps:
    ```bash
    docker-compose build
 	```
-# Medical Database Setup
+5. And In the Docker Descktop Guarantee that 2 container apps are running
+
+my_db_pg_container 
+
+medical_api_1
+
+6. You not need more you can run the endpoint 
+
+	Swagger Endpoint: [http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise](http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise)
+
+If any things work bad you can excecute the next step
+
+# **Optional** Medical Database Setup
 
 This repository provides SQL scripts to establish a medical database with tables for patients, medical facilities, and insurance companies.
 
