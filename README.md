@@ -20,7 +20,7 @@ To get started, follow these steps:
 
    For example
    
-   C:\Users\[name user]\source\repos\medical
+   C:\Users\\[name user]\source\repos\medical
 
 4. Run the following command:
 
@@ -32,13 +32,13 @@ To get started, follow these steps:
    ```bash
    docker-compose build
 	```
-5. And In the Docker Descktop Guarantee that 2 container apps are running
+5. And In the Docker Desktop Guarantee that 2 container apps are running
 
-my_db_pg_container 
+my_db_pg_container OK
 
-medical_api_1
+medical_api_1      OK
 
-6. You not need more you can run the endpoint 
+6. You not need more to run this coding task, the next step is run the endpoint 
 
 	Swagger Endpoint: [http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise](http://localhost:8080/api/Patient/GetAllPatientsVisitCitiesMoreThanTwise)
 
