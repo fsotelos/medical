@@ -3,7 +3,7 @@ using Domain.Entities;
 
 namespace Domain
 {
-    [Table("Patients")]
+    [Table("patients")]
     public class PatientDb
     {
         [ExplicitKey]

@@ -1,4 +1,86 @@
--- Insert Insurance Companies
+# Medical Database Setup
+
+This repository contains SQL scripts to set up a medical database with tables for patients, medical facilities, and insurance companies. Follow the steps below to ensure that the scripts run smoothly.
+
+## Prerequisites
+
+Before running the scripts, make sure you have the following:
+
+- PostgreSQL installed on your system.
+- Access to a PostgreSQL database where you want to create the medical database.
+
+## Steps
+
+1. **Connect to your PostgreSQL database**: Use your preferred PostgreSQL client to connect to the PostgreSQL database where you want to create the medical database.
+
+2. **Create the Medical Database**: If you haven't already created the medical database, run the following SQL command to create it:
+
+    ```sql
+    CREATE DATABASE medical;
+    ```
+
+3. **Connect to the Medical Database**: Connect to the medical database using the following command:
+
+    ```sql
+    \c medical
+    ```
+
+4. **Run SQL Scripts**: Execute the following SQL script to create the necessary tables in the medical database:
+
+    ```sql
+    -- Tabla para los pacientes
+    CREATE TABLE Patients (
+        Id UUID PRIMARY KEY,
+        FirstName VARCHAR(100),
+        LastName VARCHAR(100),
+        Age INT,
+        InsuranceCompanyId UUID
+    );
+
+    -- Tabla para las instalaciones médicas
+    CREATE TABLE MedicalFacilities (
+        Id UUID PRIMARY KEY,
+        Name VARCHAR(100) NOT NULL,
+        City VARCHAR(100) NOT NULL
+    );
+
+    -- Tabla para las compañías de seguros
+    CREATE TABLE InsuranceCompanies (
+        Id UUID PRIMARY KEY,
+        Name VARCHAR(100) NOT NULL,
+        City VARCHAR(100) NOT NULL
+    );
+
+    -- Tabla para las visitas de pacientes a instalaciones médicas
+    CREATE TABLE PatientvisitMedicalFacilities
+    (
+        patientid uuid NOT NULL,
+        medicalfacilityid uuid NOT NULL,
+        "VisitDate" date,
+        CONSTRAINT patientvisitmedicalfacilities_medicalfacilityid_fkey FOREIGN KEY (medicalfacilityid)
+            REFERENCES MedicalFacilities (id) MATCH SIMPLE
+            ON UPDATE NO ACTION
+            ON DELETE NO ACTION,
+        CONSTRAINT patientvisitmedicalfacilities_patientid_fkey FOREIGN KEY (patientid)
+            REFERENCES Patients (id) MATCH SIMPLE
+            ON UPDATE NO ACTION
+            ON DELETE NO ACTION
+    );
+    ```
+
+    Make sure to replace any placeholder values (e.g., data types, constraints) with appropriate values for your use case.
+
+5. **Verify Tables**: Once you've run all the scripts, verify that the tables were created successfully by querying the database:
+
+    ```sql
+    SELECT table_name FROM information_schema.tables WHERE table_schema = 'medical';
+    ```
+
+    This should display a list of tables created in the medical schema.
+
+6. **Populate Tables**: Populate the tables with sample data, you can run additional SQL scripts or manually insert data using SQL INSERT statements.
+ ```sql
+ -- Insert Insurance Companies
 INSERT INTO InsuranceCompanies (Id, Name, City)
 VALUES 
     ('1b2493f7-0896-4856-a1c7-dab4a6f9c54f', 'State Farm', 'New York'),
@@ -151,3 +233,9 @@ INSERT INTO patientvisitmedicalfacilities(patientid, medicalfacilityid, "VisitDa
     ('e2dd1273-cd4b-4469-809b-0f4d6938cda5', '5d9799ae-5da7-4050-89d8-b1df032d09e9', '2024-05-06'),
     ('f28f4863-4504-4d1d-8f2f-564289c79f91', '07b1508b-8e5c-4053-9c8d-0ff6c9e4e6ab', '2024-05-06'),
     ('4802f43b-32b1-47d4-9b27-ccf4f8db5372', '84710e54-bd3e-4b3d-a7ee-304ff9bbf874', '2024-05-06');
+ ```
+ 
+## Troubleshooting
+
+- If you encounter any errors while running the scripts, double-check the SQL syntax and ensure that you have the necessary permissions to create tables in the database.
+- If the scripts fail to run, review the error messages provided by PostgreSQL for more information on the issue.

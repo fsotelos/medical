@@ -1,0 +1,35 @@
+﻿services:
+  my_db_pg_container:
+    image: postgres:latest
+    container_name: my_db_pg_container
+    restart: always
+    environment:
+      POSTGRES_DB: medical
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./migrations/1_db_init.up.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - my_network
+
+  medical_api:
+    build:
+      context: . 
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    environment:
+      - ConnectionStrings__DefaultConnection=User ID=postgres;Password=123456;Server=my_db_pg_container;Port=5432;Database=medical;Pooling=true;
+     
+    depends_on:
+      - my_db_pg_container
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    networks:
+      - my_network
+
+networks:
+  my_network:

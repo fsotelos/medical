@@ -1,3 +1,5 @@
+CREATE DATABASE medical;
+
 -- Tabla para los pacientes
 CREATE TABLE Patients (
     Id UUID PRIMARY KEY,
@@ -22,7 +24,7 @@ CREATE TABLE InsuranceCompanies (
 );
 
 
-CREATE TABLE PatientvisitMedicalFacilities1
+CREATE TABLE PatientvisitMedicalFacilities
 (
     patientid uuid NOT NULL,
     medicalfacilityid uuid NOT NULL,
