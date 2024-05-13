@@ -18,7 +18,9 @@ To get started, follow these steps:
 
 3. Navigate to the `medical` directory at the root of the repository.
 
-   C:\Users\[name user]\source\repos\medical2
+   For example
+   
+   C:\Users\[name user]\source\repos\medical
 
 4. Run the following command:
 
