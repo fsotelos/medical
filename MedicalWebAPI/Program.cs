@@ -1,4 +1,5 @@
 using Infraestructure;
+using Infraestructure.Migration;
 using Infraestructure.Repositories;
 using MedicalAPI.Middleware;
 using Services;
@@ -38,4 +39,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+await MigratorManager.GenerateObjectsIntoDataBase(logger);
+
 app.Run();
